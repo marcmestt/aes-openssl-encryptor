@@ -1,0 +1,14 @@
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de Visual Studio Code
+.vscode/
+
+# Archivos de prueba generados dinámicamente
+*.enc
+*.dec
+
+# Archivos del sistema operativo (Mac)
+.DS_Store
