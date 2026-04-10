@@ -29,7 +29,7 @@ cat myfile.txt | ./xaes.py -e "my_password" > myfile.enc
 cat myfile.enc | ./xaes.py -d "my_password" > myfile.dec
 ```
 
-### 🔄 OpenSSL Bidirectional Compatibility
+### OpenSSL Bidirectional Compatibility
 
 **Encrypt with OpenSSL, Decrypt with xaes.py:**
 ```bash
